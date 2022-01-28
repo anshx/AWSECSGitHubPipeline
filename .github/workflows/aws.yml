@@ -39,7 +39,7 @@ env:
   ECS_CLUSTER: LearningCluster                # set this to your Amazon ECS cluster name
   ECS_TASK_DEFINITION: taskDefinitions.json # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
-  CONTAINER_NAME: LearningTaskContainer           # set this to the name of the container in the
+  CONTAINER_NAME: LearningContainer           # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
 
 jobs:
