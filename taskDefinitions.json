@@ -29,7 +29,7 @@
       "memoryReservation": null,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "236182320999.dkr.ecr.ap-south-1.amazonaws.com/learning:latest",
+      "image": "236182320999.dkr.ecr.ap-south-1.amazonaws.com/learning:8223eaa5538713d4abc5e51fd1ab11575d4ed01e",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -56,8 +56,8 @@
     "EXTERNAL",
     "EC2"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:ap-south-1:236182320999:task-definition/LearningTaskContainer:3",
-  "family": "LearningTaskContainer",
+  "taskDefinitionArn": "arn:aws:ecs:ap-south-1:236182320999:task-definition/LearningTaskDefinition:1",
+  "family": "LearningTaskDefinition",
   "requiresAttributes": [
     {
       "targetId": null,
@@ -73,7 +73,7 @@
   "networkMode": null,
   "runtimePlatform": null,
   "cpu": "512",
-  "revision": 3,
+  "revision": 1,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
