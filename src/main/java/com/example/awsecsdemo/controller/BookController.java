@@ -10,5 +10,10 @@ public class BookController {
     public String getBooks() {
         return "New Book";
     }
+    
+    @GetMapping("/show")
+    public String showBooks() {
+        return "Show Book";
+    }
 
 }
