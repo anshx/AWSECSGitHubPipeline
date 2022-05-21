@@ -11,7 +11,7 @@ public class BookController {
         return "New Book";
     }
     
-    @GetMapping("/show")
+    @GetMapping("/showBook")
     public String showBooks() {
         return "Show Book";
     }
